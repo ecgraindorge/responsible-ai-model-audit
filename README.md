@@ -56,3 +56,13 @@ This project will use:
 ## Responsible AI Framing
 
 This project approaches model development as only one part of responsible AI practice. The emphasis is on auditing model behavior, identifying subgroup-level harms, interpreting model decisions, and documenting limitations clearly.
+
+## Key Takeaways
+
+This project demonstrates that responsible AI evaluation requires more than overall model accuracy. A model may perform reasonably well in aggregate while still producing different error patterns across demographic groups.
+
+The project highlights three central lessons:
+
+1. Fairness auditing should examine subgroup-level error rates.
+2. Explainability can support model review, but it does not guarantee fairness.
+3. Some high-stakes predictive systems may be technically possible but ethically inappropriate for deployment.
