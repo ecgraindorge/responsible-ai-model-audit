@@ -1,94 +1,94 @@
-# \# Responsible AI Model Audit: Fairness and Explainability in Recidivism Risk Prediction
+\# Responsible AI Model Audit: Fairness and Explainability in Recidivism Risk Prediction
 
-# 
 
-# This project examines the COMPAS recidivism dataset through the lens of responsible AI. Rather than focusing only on predictive performance, this project evaluates subgroup performance, fairness metrics, explainability, and ethical deployment risks.
 
-# 
+This project examines the COMPAS recidivism dataset through the lens of responsible AI. Rather than focusing only on predictive performance, this project evaluates subgroup performance, fairness metrics, explainability, and ethical deployment risks.
 
-# \## Project Purpose
 
-# 
 
-# The goal of this project is to demonstrate how a machine learning model can be evaluated beyond aggregate accuracy. The project uses the COMPAS dataset as a case study to explore how predictive models can produce different error patterns across demographic groups.
+\## Project Purpose
 
-# 
 
-# This project is intended as an educational model audit and should not be interpreted as a recommendation to deploy recidivism prediction systems in criminal justice settings.
 
-# 
+The goal of this project is to demonstrate how a machine learning model can be evaluated beyond aggregate accuracy. The project uses the COMPAS dataset as a case study to explore how predictive models can produce different error patterns across demographic groups.
 
-# \## Project Goals
 
-# 
 
-# \- Explore the COMPAS dataset using responsible data science practices.
+This project is intended as an educational model audit and should not be interpreted as a recommendation to deploy recidivism prediction systems in criminal justice settings.
 
-# \- Build a baseline predictive model for two-year recidivism.
 
-# \- Evaluate model performance across demographic subgroups.
 
-# \- Compare false positive and false negative rates.
+\## Project Goals
 
-# \- Use explainability methods to interpret model behavior.
 
-# \- Create a model card and ethical reflection.
 
-# 
+\- Explore the COMPAS dataset using responsible data science practices.
 
-# \## Dataset
+\- Build a baseline predictive model for two-year recidivism.
 
-# 
+\- Evaluate model performance across demographic subgroups.
 
-# This project uses the public COMPAS dataset released by ProPublica. The data is loaded directly from ProPublica’s public GitHub repository and is not stored in this repository.
+\- Compare false positive and false negative rates.
 
-# 
+\- Use explainability methods to interpret model behavior.
 
-# \## Planned Project Structure
+\- Create a model card and ethical reflection.
 
-# 
 
-# 1\. Data understanding
 
-# 2\. Exploratory data analysis
+\## Dataset
 
-# 3\. Baseline model training
 
-# 4\. Fairness evaluation
 
-# 5\. Explainability analysis
+This project uses the public COMPAS dataset released by ProPublica. The data is loaded directly from ProPublica’s public GitHub repository and is not stored in this repository.
 
-# 6\. Model card and ethical reflection
 
-# 
 
-# \## Tools
+\## Planned Project Structure
 
-# 
 
-# This project will use:
 
-# 
+1\. Data understanding
 
-# \- Python
+2\. Exploratory data analysis
 
-# \- pandas
+3\. Baseline model training
 
-# \- matplotlib
+4\. Fairness evaluation
 
-# \- seaborn
+5\. Explainability analysis
 
-# \- scikit-learn
+6\. Model card and ethical reflection
 
-# \- SHAP
 
-# \- Jupyter Notebook
 
-# 
+\## Tools
 
-# \## Responsible AI Framing
 
-# 
 
-# This project approaches model development as only one part of responsible AI practice. The emphasis is on auditing model behavior, identifying subgroup-level harms, interpreting model decisions, and documenting limitations clearly.
+This project will use:
+
+
+
+\- Python
+
+\- pandas
+
+\- matplotlib
+
+\- seaborn
+
+\- scikit-learn
+
+\- SHAP
+
+\- Jupyter Notebook
+
+
+
+\## Responsible AI Framing
+
+
+
+This project approaches model development as only one part of responsible AI practice. The emphasis is on auditing model behavior, identifying subgroup-level harms, interpreting model decisions, and documenting limitations clearly.
 
